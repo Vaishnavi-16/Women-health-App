@@ -1,0 +1,72 @@
+.Navbar{
+    position:fixed;
+    top: 1.2vh;
+    left: 2vw;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    z-index: 11;
+    border: 2px solid #ff6495;
+    border-radius: 10px;
+    background: rgba(255, 97, 131, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.5px);
+-webkit-backdrop-filter: blur(3.5px);
+border: 2px solid rgba(250, 136, 222, 0.411);
+}
+.Navbar ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+   
+    list-style: none;
+    font-size: 1.4vw;
+    font-weight: 500;
+    /* border: 2px solid #fff; */
+}
+.Navbar ul li{
+    margin: 0 0.5rem;
+    width: 8rem;
+    text-align: center;
+    /* border: 2px solid #fff; */
+}
+.Navbar ul button{
+
+    /* display: none; */
+}
+
+.Navbar .logo h1{
+    /* border: 2px solid rgb(143, 139, 139); */
+    word-spacing: 1rem;
+    /* align-self: center;  */
+    font-size: 2vw;
+    /* transform: translateY(-1rem); */
+    color: #bd004c;
+    font-weight: 700;
+}
+.hamburger{
+    display: none;
+}
+
+@media (max-width:800px){
+    .navlinks ul{
+       display: none;
+    }
+
+    .hamburger{
+        margin-top: 20px;
+        display: fixed;
+        position: absolute;
+        right: 5%;
+       height: 30px;
+       width: 30px;
+        color: wheat;
+    }
+
+
+
+
+}

@@ -1,0 +1,4 @@
+.ham-menu ul{
+    display: grid;
+    grid-auto-flow: row;
+}
